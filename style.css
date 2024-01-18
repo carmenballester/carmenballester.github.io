@@ -24,7 +24,7 @@
 	background-color: #EDAFB8;
 }
 
-.header {
+.menu {
 	display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -33,20 +33,34 @@
     width: 100%;
     /* background-color: #ffffff; */
     padding: 10px;
-	margin-bottom: 20px; /* Add bottom margin to the fixed header */
-}
-
-.divider {
-	margin-top: 60px;
 }
 
 .title {
 	font-family: Verdana, sans-serif;
 	font-size:xx-large;
-	font-weight:bold;
 	text-decoration: none;
 	color: #2E3638;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+
+.divider {
+	margin-top: 80px;
+}
+
+
+
+
+
+
+
 .subtitle {
 	font-family: Verdana, sans-serif;
 	font-size:large;
