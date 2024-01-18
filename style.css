@@ -24,6 +24,10 @@
 	background-color: #EDAFB8;
 }
 
+.menu_button:active {
+	background-color: #EDAFB8;
+}
+
 .menu {
 	display: flex;
 	position: fixed;
@@ -32,13 +36,13 @@
     top: 0;
 	right: 0;
     width: 100%;
-    /* background-color: #ffffff; */
     padding: 10px;
 }
 
 .title {
 	font-family: Verdana, sans-serif;
 	font-size:xx-large;
+	font-weight: normal;
 	text-decoration: none;
 	color: #2E3638;
 }
@@ -101,9 +105,11 @@
 }
 
 .paragraph {
-	font-family: Verdana, sans-serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size:normal;
 	font-weight:normal;
+	text-align: justify;
 	text-decoration: none;
 	color: #2E3638;
+	margin: 10px 8px;
 }
