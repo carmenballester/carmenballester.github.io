@@ -31,7 +31,7 @@
 	justify-content: flex-end;
     align-items: center;
     top: 0;
-    right: 0;
+	right: 0;
     width: 100%;
     /* background-color: #ffffff; */
     padding: 10px;
@@ -57,13 +57,14 @@
         flex-direction: column; 
         align-items: center;
 		margin-top: 75px;
+		padding: 10px;
     }
 
     .menu {
 		flex-direction: row;
-        /* position: static;  */
 		justify-content: center;
-		margin-bottom: 50px;
+		align-items: center;
+		padding: 10px;
     }
 }
 
