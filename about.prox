@@ -1,7 +1,6 @@
 @style{./style.css}
 
-@header
-About me :)
+@header{}
 
 #@paragraph
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula mi a arcu dignissim, sed pulvinar orci condimentum. Donec elementum nisi sed turpis placerat posuere. Curabitur sit amet diam sit amet metus euismod ullamcorper. In placerat viverra eros nec pulvinar. Donec lorem odio, rutrum facilisis diam non, suscipit pharetra massa. Sed at est sit amet diam cursus placerat quis sed nibh. Sed a lectus eu diam volutpat dictum laoreet scelerisque tellus. Praesent quis pellentesque ante, quis venenatis nisi. Phasellus aliquam, ex eget consequat fringilla, urna velit volutpat neque, ac commodo risus ipsum sed magna. Vestibulum id iaculis erat, id tempor lacus. Maecenas nisi odio, tempus vitae diam id, vehicula fermentum risus. Curabitur scelerisque ac erat ut consequat. Maecenas eu elit sed eros placerat suscipit consectetur eu lacus. Aenean quis sem ligula. Nam sit amet pretium erat. Donec nec mi accumsan, condimentum augue vitae, sollicitudin tortor.
@@ -53,3 +52,6 @@ Pellentesque pharetra et tortor vel iaculis. Nullam non ante sit amet sem euismo
 Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque hendrerit neque ac tellus consequat mollis. Etiam dui dui, placerat id gravida eu, interdum nec massa. Vivamus pretium, massa non venenatis imperdiet, purus dui venenatis magna, ac hendrerit metus est id nibh. Nunc in elit tortor. Vivamus a hendrerit erat, sit amet congue purus. Aliquam velit odio, sollicitudin vitae mauris vel, lobortis semper diam. Nullam dictum aliquet lacus at varius. In blandit lectus a fringilla fringilla. Sed rhoncus, lacus vitae placerat aliquet, tortor ex pellentesque lorem, vel maximus lorem erat vitae est. Suspendisse non est rutrum, consequat felis nec, ultrices urna.
 
 Nulla facilisi. Suspendisse sit amet tellus ac tellus ultricies vehicula. Mauris ut erat sed eros semper posuere. Donec et eros at tortor ultricies consectetur id at arcu. Donec sodales gravida orci, ut consequat elit. Duis gravida leo commodo, ornare ante non, auctor lorem. Aenean pharetra lectus eu lobortis sagittis. Aenean ultricies, neque eu ultrices facilisis, nisl sapien condimentum nulla, sit amet lobortis nisi lectus ut augue. Maecenas nec metus condimentum, accumsan dolor quis, scelerisque mi. Aliquam erat volutpat. Morbi erat massa, iaculis a fringilla vel, dictum in urna.
+
+
+@script{./scripts/activePage.js}
