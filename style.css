@@ -120,24 +120,20 @@
 .horizontal-wrapper {
 	display: flex;
     justify-content: space-between;
-	width: 100%;
+	/* width: 100%; */
 }
 
 .hw-picture {
 	border: 2px solid var(--primary);
 	border-radius: 10px;
 	background-color: var(--background);
-	padding: 10px 15px;
-	display: inline-block;
-	margin: 4px 8px;
-	vertical-align: top;
 	outline: 1px solid transparent; /* Define a border without affecting the layout */
 	box-shadow: 5px 5px 0px var(--primary); 
-	width: 33%;
+	width: 32%;
 }
 
 .hw-content {
-	width: 66%;
+	width: 65%;
 }
 
 .hw-title-container {
