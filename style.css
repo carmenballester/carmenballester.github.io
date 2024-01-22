@@ -1,3 +1,13 @@
+:root {
+    --primary: #2E3638;
+    --secondary: #F7E1D7;
+    --accent: #EDAFB8;
+    --highlight: #B0C4B1;
+    --background: #EEECE8;
+    --max-width: 840px;
+    --static6: rgba(255, 255, 255, 0.15);
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,31 +16,32 @@
 	 /* background-color: #EEECE8; */
 }
 
+/* ----- HEADER ----- */
 .menu_button {
-	border: 2px solid #2E3638;
+	border: 2px solid var(--primary);
 	border-radius: 10px;
-	background-color: #F7E1D7;
+	background-color: var(--secondary);
 	padding: 10px 15px;
 	width: auto;
 	display: inline-block;
 	margin: 4px 8px;
-	cursor: pointer;
 	vertical-align: top;
 	outline: 1px solid transparent; /* Define a border without affecting the layout */
-	box-shadow: 5px 5px 0px #2E3638; 
+	box-shadow: 5px 5px 0px var(--primary); 
 }
 
 .menu_button a {
+	cursor: pointer;
 	text-align: center;
 	font-family: Verdana, sans-serif;
 	font-size:medium;
 	font-weight:normal;
 	text-decoration: none;
-	color: #2E3638;
+	color: var(--primary);
 }
 
 .menu_button:hover {
-	background-color: #EDAFB8;
+	background-color: var(--highlight);
 }
 
 .menu_button.shrink {
@@ -42,7 +53,7 @@
 }
 
 .active {
-	background-color: #B0C4B1;
+	background-color: var(--accent);
 }
 
 .menu {
@@ -56,7 +67,7 @@
 	font-size:xx-large;
 	font-weight: normal;
 	text-decoration: none;
-	color: #2E3638;
+	color: var(--primary);
 }
 
 .header_content {
@@ -95,6 +106,8 @@
     }
 }
 
+/* ----- BODY ----- */
+
 .divider {
 	margin: top 80px;
 	/* height: 50px;
@@ -110,15 +123,15 @@
 	font-size:large;
 	font-weight:normal;
 	text-decoration: none;
-	color: #2E3638;
+	color: var(--primary);
 }
 
-.paragraph {
+p {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size:normal;
 	font-weight:normal;
 	text-align: justify;
 	text-decoration: none;
-	color: #2E3638;
+	color: var(--primary);
 	margin: 10px 8px;
 }
