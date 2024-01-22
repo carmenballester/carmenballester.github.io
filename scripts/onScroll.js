@@ -1,6 +1,6 @@
 window.addEventListener('scroll', function() {
 
-    headers = document.querySelectorAll('.header_content');
+    headers = document.querySelectorAll('.header-content');
     headers.forEach(function(header) {
         if (window.scrollY > 0) {
             header.classList.add('shrink');
@@ -9,7 +9,7 @@ window.addEventListener('scroll', function() {
         }
     });
 
-    buttons = document.querySelectorAll('.menu_button');
+    buttons = document.querySelectorAll('.button');
     buttons.forEach(function(button) {
         if (window.scrollY > 0) {
             button.classList.add('shrink');
@@ -18,7 +18,7 @@ window.addEventListener('scroll', function() {
         }
     });
 
-    texts = document.querySelectorAll('.menu_button a');
+    texts = document.querySelectorAll('.button a');
     texts.forEach(function(text) {
         if (window.scrollY > 0) {
             text.classList.add('shrink');
