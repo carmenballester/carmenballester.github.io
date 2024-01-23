@@ -2,10 +2,11 @@
 
 @header{}
 
-Under construction
+@spacer
 
-Authorized personnel only 
+@section{Under construction!}{Authorized personnel only :)}
 
+@spacer
 
 @script{./scripts/activePage.js}
 @script{./scripts/onScroll.js}

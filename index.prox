@@ -4,7 +4,7 @@
 
 @spacer
 
-@intro{Welcome!}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula mi a arcu dignissim, sed pulvinar orci condimentum. Donec elementum nisi sed turpis placerat posuere. Curabitur sit amet diam sit amet metus euismod ullamcorper. In placerat viverra eros nec pulvinar. Donec lorem odio, rutrum facilisis diam non, suscipit pharetra massa. Sed at est sit amet diam cursus placerat quis sed nibh. Sed a lectus eu diam volutpat dictum laoreet scelerisque tellus. Praesent quis pellentesque ante, quis venenatis nisi. Phasellus aliquam, ex eget consequat fringilla, urna velit volutpat neque, ac commodo risus ipsum sed magna. Vestibulum id iaculis erat, id tempor lacus. Maecenas nisi odio, tempus vitae diam id, vehicula fermentum risus. Curabitur scelerisque ac erat ut consequat. Maecenas eu elit sed eros placerat suscipit consectetur eu lacus. Aenean quis sem ligula. Nam sit amet pretium erat. Donec nec mi accumsan, condimentum augue vitae, sollicitudin tortor.}
+@intro-card{"./imgs/me.jpg"}{Welcome!}{@text{My name is }@hl{Carmen Ballester}@text{, and I am a hardware engineer having some fun programming my webpage :)} @bl-text{I graduated as a Robotic Engineer in 2021 in University of Alicante, Spain. Then, i obtained my Master Degree in Robotics and Automatization in University Carlos III of Madrid. I have been working as a researcher since 2019, and now I am pursuing my PhD in Soft Robotics at RoboticsLab in University Carlos III of Madrid. My work aims to design, develop and soft sensors and actuators, and develop with them artificial muscles, which we apply for rehabilitation therapies.}}
 
 @spacer
 

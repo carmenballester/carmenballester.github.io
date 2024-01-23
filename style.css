@@ -3,7 +3,7 @@
     --secondary: #F7E1D7;
     --accent: #EDAFB8;
     --highlight: #B0C4B1;
-	--accent2: #808EB3;
+	--accent2: #798FCD;
     --background: #EEECE8;
     --max-width: 840px;
     --static6: rgba(255, 255, 255, 0.15);
@@ -42,7 +42,7 @@
 }
 
 .button:hover {
-	background-color: var(--highlight);
+	background-color: var(--accent2);
 }
 
 .button.shrink {
@@ -105,6 +105,17 @@
 		right: auto;
 		padding: 10px;
     }
+
+	.horizontal-wrapper {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hw-picture {
+		width: 100%;
+		margin-bottom: 20px;
+	}
 }
 
 /* ----- BODY ----- */
@@ -117,27 +128,48 @@
 	height: 20px;
 }
 
+.body-wrapper{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 20px;
+}
+
 .horizontal-wrapper {
 	display: flex;
     justify-content: space-between;
-	/* width: 100%; */
+	align-items: center;
+	margin: 0px;
+	width: var(--max-width);
 }
 
 .hw-picture {
-	border: 2px solid var(--primary);
-	border-radius: 10px;
-	background-color: var(--background);
-	outline: 1px solid transparent; /* Define a border without affecting the layout */
-	box-shadow: 5px 5px 0px var(--primary); 
 	width: 32%;
+}
+
+.hw-picture img {
+	border: 2px solid var(--primary);
+	max-width: 100%;
+	border-radius: 10px;
+	outline: 1px solid transparent; 
+	box-shadow: 5px 5px 0px var(--primary); 
+	height: auto; 
+	display: block; 
 }
 
 .hw-content {
 	width: 65%;
 }
 
+.hw-content-full {
+	width: 100%;
+}
+
+
 .hw-title-container {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: 18px;
 	background-color: var(--highlight);
@@ -160,7 +192,6 @@
 }
 
 .hw-desc-container {
-	margin-top: 20px;
 	width: 100%;
 }
 
@@ -172,7 +203,6 @@
 	text-align: justify;
 	text-decoration: none;
 	color: var(--primary);
-
 }
   
 .subtitle {
@@ -185,12 +215,21 @@
 
 /* Standard parameters */
 
-p {
+.text {
 	font-family: 'Lucida Grande', Verdana, sans-serif;
 	font-size:normal;
 	font-weight:normal;
 	text-align: justify;
 	text-decoration: none;
 	color: var(--primary);
+	margin-top: 8px;
+}
 
+.highlight-text {
+	font-family: 'Lucida Grande', sans-serif;
+	font-size:normal;
+	font-weight:bolder;
+	text-align: justify;
+	text-decoration: none;
+	color: var(--accent2);
 }
