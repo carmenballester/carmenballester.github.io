@@ -203,6 +203,10 @@
 	text-decoration: none;
 	color: var(--primary);
 }
+
+.hw-contact {
+	width: 100%;
+}
   
 .subtitle {
 	font-family: Verdana, sans-serif;

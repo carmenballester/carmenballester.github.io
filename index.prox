@@ -4,13 +4,15 @@
 
 @spacer
 
-@intro-card{"./imgs/me.jpg"}{Welcome!}{@text{I am }@hl{Carmen Ballester}@text{, a robotic engineer deep into my PhD journey. Currently, my focus is on soft actuators and sensors, exploring into the creation of artificial muscles for application in rehabilitation therapies.} 
+@intro-card{"./imgs/me.jpg"}{Welcome!}{@text{I am }@hl{Carmen Ballester}@text{, a robotic engineer deep into my PhD journey. Currently, my focus is on @hl{soft actuators and sensors}@text{, exploring into the creation of artificial muscles for application in rehabilitation therapies.}} 
 
-@bl-text{Most of my work is hands-on hardware, but I took a detour to get this webpage up and running, a cool way to stay connected with software. Here, I share my research, side projects, and the joy of contributing to Academia, sharing knowledge with peers and the future generations. As they say, if you're not having fun, you're doing it wrong!}
+@bl-text{Most of my work is hands-on hardware, but I took a detour to get this webpage up and running, a cool way to stay connected with software. Here, I share my research, side projects, and the joy of contributing to Academia, sharing knowledge with peers and the future generations. As they say, @hl{if you're not having fun, you're doing it wrong!}}
 
 @bl-text{Explore this space, and don't hesitate to drop me a line. Thanks for stopping by! <3}}
 
 @spacer
+
+#@section{a}{b}
 
 @script{./scripts/activePage.js}
 @script{./scripts/onScroll.js}
