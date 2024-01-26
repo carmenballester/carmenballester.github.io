@@ -146,7 +146,7 @@
 }
 
 .hw-picture {
-	width: 32%;
+	width: 40%;
 }
 
 .hw-picture img {
@@ -160,7 +160,8 @@
 }
 
 .hw-content {
-	width: 65%;
+	width: 100%;
+	margin: 0px 20px;
 }
 
 .hw-content-full {
@@ -203,11 +204,7 @@
 	text-decoration: none;
 	color: var(--primary);
 }
-
-.hw-contact {
-	width: 100%;
-}
-  
+ 
 .subtitle {
 	font-family: Verdana, sans-serif;
 	font-size:large;
