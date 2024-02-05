@@ -28,7 +28,7 @@
 	margin: 4px 8px;
 	vertical-align: top;
 	outline: 1px solid transparent; /* Define a border without affecting the layout */
-	transition: all 0.3s ease; 
+	transition: all 0.3s ease-in-out; 
 }
 
 .button a {
@@ -122,11 +122,13 @@
     justify-content: space-between;
 	max-width: var(--max-width);
 	margin: 0;
+	position:relative;
+	height: 300px;
 }
 
 .title-rectangle {
 	position: absolute;
-	top: 278px;
+	top: 208px;
 	left: 0;
 	width: 100%;
 	height: 72px;
@@ -137,14 +139,15 @@
 
 
 .title-wrapper {
-	margin-left: 20px;
-	width: 50%;
+	margin-left: 50px;
+	width: 60%;
+	align-self:last baseline;
 }
 
 .title-text {
 	/* Appearance */
 	font-family: Helvetica,sans-serif;
-	font-size: 92px;
+	font-size: 6rem;
 	font-weight: normal;
 	text-decoration: none;
 	color: var(--primary);
@@ -157,11 +160,11 @@
 
 .picture-wrapper img {
 	border: 2px solid var(--primary);
-	max-width: 100%;
+	width: 300px;
 	border-radius: 30px;
 	outline: 1px solid transparent; 
 	box-shadow: 5px 5px 0px var(--primary); 
-	height: auto;  
+	/* height: auto;   */
 }
 
 .hw-desc-container {
@@ -177,6 +180,10 @@
 	color: var(--primary);
 }
  
+body {
+	font-size: 16px;
+}
+
 .body-wrapper{
 	display: flex;
     align-items: center;
