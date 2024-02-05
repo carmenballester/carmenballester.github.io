@@ -1,6 +1,6 @@
 @style{./style.css}
 
-@header{}
+@header
 
 @spacer
 
