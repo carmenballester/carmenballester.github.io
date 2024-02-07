@@ -8,9 +8,77 @@
 
 @spacer
 
-@intro{WELCOME!}{I'M CARMEN}{"./imgs/me.jpg"}
+@intro{WELCOME!<br>I'M CARMEN}{"./imgs/me.jpg"}
 
 @spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+@spacer
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet eros ac augue ultricies sodales sit amet ac dui. Vestibulum scelerisque ligula ac ligula dapibus vulputate. Pellentesque id arcu eu dui gravida facilisis eget mollis lacus. Morbi quis egestas augue, id tempus justo. Integer dignissim odio vel ante pellentesque aliquet. Cras elementum maximus tempor. Phasellus malesuada dignissim sollicitudin. Maecenas hendrerit tristique justo, ac posuere libero. Fusce at risus nisl. Proin gravida est massa, eget tristique est lacinia a. Nullam mollis euismod suscipit. Nunc hendrerit, quam in mattis eleifend, ante nisl ultrices nibh, et viverra nisi sapien hendrerit libero. Suspendisse rhoncus pellentesque imperdiet.
 
@@ -64,3 +132,4 @@ Vivamus ut augue ex. Aenean vehicula, turpis luctus egestas finibus, ex ante int
 
 @script{./scripts/activePage.js}
 @script{./scripts/onScroll.js}
+@script{./scripts/resize.js}
