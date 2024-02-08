@@ -4,8 +4,6 @@
 
 @spacer
 
-@section{Under construction!}{Authorized personnel only :)}
-
 @spacer
 
 @script{./scripts/activePage.js}

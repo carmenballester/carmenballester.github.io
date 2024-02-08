@@ -1,23 +1,21 @@
 window.addEventListener('resize', function() {
     var rectangle = document.querySelector('.title-rectangle');
-    var text = document.querySelector('.title-text');
+    var title = document.querySelector('.title-text');
+    var subtitle = document.querySelector('.subtitle-text');
     var viewportWidth = window.innerWidth;
     var img = document.querySelector('.picture-wrapper img');
 
     if (viewportWidth >= 620) {
         rectangle.style.top = (viewportWidth*0.16) + 'px';
-        rectangle.style.height = (viewportWidth/16) + 'px';
-
-        text.style.fontSize = (viewportWidth*0.08) + 'px';
     }
 
     else {
         rectangle.style.top = (viewportWidth*0.105) + 'px';
-        rectangle.style.height = (viewportWidth/16) + 'px';
-
-        text.style.fontSize = (viewportWidth*0.08) + 'px';
     }
 
+    title.style.fontSize = (viewportWidth*0.08) + 'px';
+    subtitle.style.fontSize = 16 + viewportWidth*0.01 + 'px';
+    rectangle.style.height = (viewportWidth/16) + 'px';
     img.style.borderRadius = (viewportWidth*0.02) + 'px';
     
 
