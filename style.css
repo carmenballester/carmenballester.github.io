@@ -133,7 +133,7 @@
 .picture-wrapper img {
 	border: 2px solid var(--primary);
 	width: 100%;
-	border-radius: 30px;
+	/* border-radius: calc(0.3 * width); */
 	outline: 1px solid transparent; 
 	box-shadow: 5px 5px 0px var(--primary); 
 }
@@ -174,16 +174,19 @@ body {
 	}
 
 	.title-wrapper {
-		width: 80%;
 		align-self: auto;
+		width: fit-content;
+		margin-left: 0px;
 	}
 
 	.title-text {
 		justify-content: center;
+		width: fit-content;
 	}
 
 	.picture-wrapper {
-		width: 25%;
+		margin-top: 2rem;
+		width: 30%;
 		align-self: auto;
 	}
 
