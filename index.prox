@@ -6,6 +6,14 @@
 
 @intro{WELCOME!<br>I'M CARMEN}{"./imgs/me.jpg"}
 
+<div class="body-wrapper">
+
+My focus is on @hl{soft actuators and sensors}, for application in rehabilitation therapies.
+
+Most of my work is hands-on hardware, but I took a detour to get this webpage up and running, a cool way to stay connected with software. Here, I share my research, side projects, and the joy of sharing knowledge with peers and the future generations. As they say, @hl{if you're not having fun, you're doing it wrong!}
+
+Explore this space, and don't hesitate to drop me a line. Thanks for stopping by! <3
+
 @spacer
 
 @spacer
@@ -125,6 +133,9 @@ Ut ut tellus vestibulum, porttitor libero sed, pellentesque urna. Phasellus pulv
 Integer ultricies euismod lacus, eget egestas dui accumsan non. Donec accumsan lectus in metus rutrum, vitae ullamcorper quam lobortis. Morbi ut libero aliquet, cursus risus et, eleifend sapien. Integer egestas a turpis bibendum hendrerit. Mauris dictum urna nibh, id lobortis purus venenatis vel. Integer scelerisque consectetur libero, a convallis leo rutrum et. Donec non tortor a lorem vestibulum posuere. Nulla facilisi.
 
 Vivamus ut augue ex. Aenean vehicula, turpis luctus egestas finibus, ex ante interdum ipsum, non congue augue nisi eget quam. Ut pretium nunc lorem, ut dapibus mi posuere id. Morbi nec tellus venenatis, tempus turpis a, mattis dui. Nunc in rutrum ipsum. In dolor nisl, molestie eu eros ut, sollicitudin sodales sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec consectetur nunc nec augue ultricies dignissim. Suspendisse velit lectus, malesuada vel tempor non, fringilla eget lacus.
+
+</div>
+
 
 @script{./scripts/activePage.js}
 @script{./scripts/onScroll.js}

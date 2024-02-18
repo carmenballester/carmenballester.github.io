@@ -10,7 +10,7 @@ window.addEventListener('resize', function() {
     }
 
     else {
-        rectangle.style.top = (viewportWidth*0.105) + 'px';
+        rectangle.style.top = viewportWidth*0.14 + 'px';
     }
 
     title.style.fontSize = (viewportWidth*0.08) + 'px';
