@@ -1,0 +1,22 @@
+@style{./style.css}
+
+@nav-menu
+
+@spacer
+
+<div class="body-wrapper">
+
+@image{"./imgs/me.jpg"}
+
+@h1{YOU FOUND ME!}
+
+@spacer
+
+This is my little easter-egg :)
+
+</div>
+
+
+@script{./scripts/activePage.js}
+@script{./scripts/onScroll.js}
+@script{./scripts/resize.js}
